@@ -125,6 +125,11 @@ else:
     print('No sirve')
 
 #ciclos
+# En los ciclos existen el 'continue' que permite de una ingresar al siguiente ciclo
+# y el 'break' que se sale directamente del ciclo.
+for i in range(1000): #Elige un rango que va desdel el 0 y el 999s
+    print(i)
+
 for x in 'hola':#Recorre la palabra, letra por letra
     print(x)
 else: #Funciona para cuando acabe el ciclo hacer una acción inmediata
