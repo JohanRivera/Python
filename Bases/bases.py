@@ -195,6 +195,7 @@ print(nombre[0:3])
 print(nombre[:3])
 print(nombre[3:])
 print(nombre[1:7:2])#Coger la variable guardada y imprimir o guardar desde la posicion 1 del vector hasta la posicion 7 pero en pasos de dos
+print(nombre[::-1])#Retorna todo el vector al revez
 
 #Estructurar el codigo mediante una función principal
 if __name__ == '__main__':
