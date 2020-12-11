@@ -187,6 +187,15 @@ def numerosEntre(a,b):
 flambda = lambda a, b, c, d: a*b/c+d-10
 print(flambda(10,20,50,100))
 
+#Slides
+nombre = "Leandro"
+
+print(nombre[0])
+print(nombre[0:3])
+print(nombre[:3])
+print(nombre[3:])
+print(nombre[1:7:2])#Coger la variable guardada y imprimir o guardar desde la posicion 1 del vector hasta la posicion 7 pero en pasos de dos
+
 #Estructurar el codigo mediante una función principal
 if __name__ == '__main__':
     holaMundo()
